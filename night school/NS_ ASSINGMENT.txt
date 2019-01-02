@@ -1,0 +1,84 @@
+1. SELECT *
+
+   FROM  customers
+
+2.SELECT customerID
+FROM customers;
+ 
+3. SELECT customerID, customerNAME
+FROM  customers;
+
+4.SELECT contactname, address, city
+FROM customers;
+
+5.SELECT country
+
+FROM customers;
+
+6.SELECT customerid, customername, country
+
+FROM customers;
+
+7.SELECT orderID
+FROM  orders;
+
+8. SELECT customerID
+FROM  orders;
+
+9.SELECT customerID, employeeID, orderDATE
+FROM  orders;
+
+10.SELECT shipperID, orderID
+FROM  orders;
+
+11.SELECT OrderDATE,Country
+FROM  Customers,orders
+
+12.SELECT orderdetailID
+FROM  orderdetails;
+
+13.SELECT shippername,phone
+FROM  shippers;
+
+14.SELECT lastname,firstname
+FROM  employees;
+
+15.SELECT lastname,firstname,notes
+FROM EMPLOYEES;
+
+16 SELECT BIRTHDATE
+FROM EMPLOYEES;
+
+17 SELECT EMPLOYEEID,PHOTO
+FROM EMPLOYEES;
+
+18.SELECT categoryname,description
+FROM  categories;
+
+19.SELECT PRODUCTID,PRODUCTNAME
+FROM  PRODUCTS;
+
+20.SELECT SUPPLIERID
+FROM  PRODUCTS;
+
+21.SELECT  
+FROM  PRODUCTS;
+
+22.SELECT COUNTRY
+FROM CUSTOMERS;
+
+23.SELECT EMPLOYEEID,CUSTOMERID
+FROM ORDERS;
+
+24.THERE ARE 8 TABLES
+
+25.The tables are-Customers 91 records, Categories 8 records, Employees 10 records, OrderDetails 518 records, Orders 196 records,
+ Products 77 records, Shippers 3 records, Suppliers 29 records
+
+26.select make,model
+from cars;   428 records none affected
+
+27.select origin,type
+from cars; 3 rows were affected
+
+
